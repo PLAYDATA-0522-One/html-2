@@ -1,0 +1,24 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+.title {
+    font-size: 20px;
+    vertical-align: middle;
+}
+.strong {
+    font-size: 28px;
+    font-weight: 600;
+}
+.brown {
+    background-color: brown;
+}   
+#gray {
+    background-color: gray;
+}
+.font_gray {
+    color: gray;
+}
+#font_gray {
+    color: gray;
+}
