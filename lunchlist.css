@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    text-align : center;
+}
+.marine{
+    background-color: aquamarine;
+}
+
+#gray{
+    background-color: gray;
+}
+
+.font-gray{
+    color: gray;
+}
+
+#font-gray{
+    color: gray;
+}
