@@ -1,0 +1,9 @@
+table, tr,td{
+    border:1px solid royalblue;
+    padding: 3px;
+    border-radius: 5px;
+    /* margin: 5px;
+    border-color: red;
+    border-style: dashed; */
+
+}
