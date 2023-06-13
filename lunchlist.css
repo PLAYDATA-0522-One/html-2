@@ -1,25 +1,20 @@
 body{
-    margin: 0 ,auto;
-    background-color: lightblue;
-    text-align: center;
+
+    background-color: aqua;
+    text-align : center;
 }
-.title {
-    font-size: 20px;
-    vertical-align: middle;
+.marine{
+    background-color: aquamarine;
 }
-.strong {
-    font-size: 28px;
-    font-weight: 600;
-}
-.brown {
-    background-color: brown;
-}   
-#gray {
+
+#gray{
     background-color: gray;
 }
-.font_gray {
+
+.font-gray{
     color: gray;
 }
-#font_gray {
+
+#font-gray{
     color: gray;
 }
