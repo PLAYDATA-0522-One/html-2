@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+.main {
+    font-size: 150px;
+    font-weight: 800;
+    text-align: center;
+    background-color: aquamarine;
+}
+.map {
+    margin: 30px auto;
+}
+
+td {
+    width: 100px;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    border: 1px solid red;
+    text-align: center;
+}
+.movingbutton {
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 15px;
+}
+input {
+   padding: 20px; 
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(70, 138, 216);
+    border: 0px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.start {
+    margin: 20px;
+    text-align: center;
+}
+.monster {
+    width: 200px;
+}
+
+.moving {
+    padding: 10px; 
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgb(70, 138, 216);
+    border: 0px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
