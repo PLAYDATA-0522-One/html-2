@@ -1,4 +1,13 @@
 body{
+    background-color:cyan;
+    text-align: center;
+
+}
+hi{
+    background-color: brown;
+}
+.brown{
+    background-color: brown;
 
     background-color: aqua;
     text-align : center;
