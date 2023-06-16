@@ -5,14 +5,14 @@ body {
 .bodycolor {
     position: relative;
     height: 3877px;
-    width: 1440px;
+    width: 100%;
     background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
 }
 .joystick {
     position: absolute;
     width: 515px;
     height: 761px;
-    left: 870px;
+    left: 65%;
     top: 0px;
 }
 .top {
@@ -67,4 +67,11 @@ body {
     top: 24px;
     font-size: 20px;
     line-height: 30px;
+}
+.main_text_img {
+    position: absolute;
+    width: 527px;
+    height: 289px;
+    left: 12%;
+    top: 380px;
 }
