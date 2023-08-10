@@ -1,13 +1,3 @@
-header {
-  background-color: #eb5d5d;
-  padding: 20px;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -30,16 +20,14 @@ header {
 }
 
 .navigation li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #101610;
-  background-image: url("../Character/joy_stick_1.png");
-  background-position: center;
+  background-color: #ffffff;
   opacity: 1;
 }
 
@@ -47,10 +35,10 @@ body {
   max-width: 50%;
   max-height: 100%;
   margin: 0 auto;
-  background-color: rgba(143, 106, 51, 0.8);
+  background-color: #1c140f;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(134, 7, 7, 0.2);
   animation: fade-in 1s ease-in-out;
 }
 
@@ -104,6 +92,16 @@ input[id="check1"]:checked + label::after {
   position: absolute;
   left: 0;
   top: 0;
+}
+.character-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.character-selection label {
+  margin: 10px;
+  color: #ffffff;
 }
 
 .btn {

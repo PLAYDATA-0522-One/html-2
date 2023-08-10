@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./char.css" />
+    <link rel="stylesheet" href="./charac.css" />
+    <title>PLAYDATA STORY</title>
+  </head>
+  <body class="bodycolor">
+    <header>
+      <div class="top">
+        <p class="mainfont logo">
+          PLAY DATA <br />
+          STORY
+        </p>
+        <p class="mainfont aboutus">About us</p>
+        <button
+          class="headerbutton headerbuttonfont headerbuttonlogin mainfont"
+        >
+          캐릭터 선택
+        </button>
+
+        <button
+          class="headerbutton headerbuttonfont headerbuttonsignup mainfont"
+        >
+          나가기
+        </button>
+      </div>
+    </header>
+    <div class="joystick1"></div>
+    <div class="joystick2"></div>
+    <div class="joystick3"></div>
+    <div class="container">
+      <div class="form-group">
+        <label for="name">
+          <span style="color: aliceblue">캐릭터 이름:</span></label
+        >
+        <div>
+          <input type="text" id="name" placeholder="캐릭터 이름을 입력하세요" />
+        </div>
+        <input type="checkbox" id="check1" />
+        <label for="check1"></label>
+      </div>
+      <div class="form-group">
+        <label for="class">
+          <span style="color: aliceblue"
+            >직업: 전사 , 마법사, 도적 중 선택해주세요!</span
+          ></label
+        >
+        <div class="character-selection">
+          <input
+            type="radio"
+            id="warrior"
+            name="character"
+            value="warrior"
+            style="width: 30px; height: 30px; border: 1px"
+          />
+
+          <label for="warrior" style="font-size: 20px">전사</label>
+
+          <input
+            type="radio"
+            id="mage"
+            name="character"
+            value="mage"
+            style="width: 30px; height: 30px; border: 1px"
+          />
+          <label for="mage" style="font-size: 20px">마법사</label>
+
+          <input
+            type="radio"
+            id="rogue"
+            name="character"
+            value="rogue"
+            style="width: 30px; height: 30px; border: 1px"
+          />
+          <label for="rogue" style="font-size: 20px">도적</label>
+        </div>
+      </div>
+      <button class="btn" onclick="createCharacter()">캐릭터 생성</button>
+    </div>
+  </body>
+</html>
